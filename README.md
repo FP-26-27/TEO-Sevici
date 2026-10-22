@@ -428,7 +428,9 @@ def crea_mapa(latitud, longitud, zoom=9):
         :rtype: folium.Map
     '''
     mapa = folium.Map(location=[latitud, longitud], 
-                      zoom_start=zoom)
+                      zoom_start=zoom,
+                      tiles='https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}',
+                      attr='Esri')
     return mapa    
 ```
 
