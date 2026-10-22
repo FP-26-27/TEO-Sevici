@@ -340,7 +340,7 @@ Estado global de la red:
 
 ### 2.3.3 Estaciones por porcentaje de ocupación
 
-Implementa la función `estaciones_por_porcentaje_ocupacion(estaciones, umbral_porcentaje=80.0)` que calcula el porcentaje de ocupación de bicicletas $(\text{bicis\_disponibles} / \text{bornetas}) \times 100$ para cada estación y devuelve aquellas que igualen o superen el umbral dado.
+Implementa la función `estaciones_por_porcentaje_ocupacion(estaciones, umbral_porcentaje=80.0)` que calcula el porcentaje de ocupación de bicicletas para cada estación y devuelve aquellas que igualen o superen el umbral dado.
 
 ```Python
 def estaciones_por_porcentaje_ocupacion(estaciones, umbral_porcentaje=80.0):
